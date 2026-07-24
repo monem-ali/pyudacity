@@ -8,6 +8,11 @@ sudo apt install python3.10-venv   # for ubuntu
 
 python -m venv myenv  # Replace "myenv" with your environment name   for win & linux
 
+## how to change name of virtual environment python in terminal ubuntu
+
+python -m venv myenv --prompt="customname"
+
+
 .\myenv\Scripts\activate   # win cmd powershell
 
 source myenv/bin/activate  #linux
