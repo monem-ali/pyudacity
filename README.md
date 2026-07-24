@@ -23,6 +23,17 @@ pip list
 
 pip show <package_name> 
 
+
+=========================================================================
+import sys                                                              
+print(sys.executable)  # Should point to your venv Python               
+=========================================================================
+
+
+#Deactivate the environment
+deactivate
+
+
 #allows you to select the environment in Jupyter Notebook
 pip install ipykernel
 
@@ -30,14 +41,6 @@ pip install ipykernel
 python -m ipykernel install --user --name=onmsioss
 
 
-=========================================================================
-import sys                                                              =
-print(sys.executable)  # Should point to your venv Python               =
-=========================================================================
-
-
-#Deactivate the environment
-deactivate
 
 #Remove the kernel
 jupyter kernelspec uninstall <myenv>
